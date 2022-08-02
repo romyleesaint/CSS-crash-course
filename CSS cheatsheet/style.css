@@ -8,6 +8,19 @@ body {
   line-height: 1.6;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: white;
+}
+a:visited{
+color: purple;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -20,7 +33,8 @@ body {
   border-top: 5px black solid;
   border-bottom: 5px black solid;
   border-width: 16px;
-  padding-top: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .box-1 h1 {
@@ -28,6 +42,25 @@ body {
   font-weight: 800;
   font-style: italic;
   text-decoration: underline;
-  letter-spacing: .2em;
-  
+  letter-spacing: 0.2em;
+}
+.box-2 {
+  border: 3px dotted;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border: 1px red solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: none;
 }
