@@ -18,8 +18,8 @@ a:hover {
 a:active {
   color: white;
 }
-a:visited{
-color: purple;
+a:visited {
+  color: black;
 }
 .container {
   width: 80%;
@@ -63,4 +63,24 @@ color: purple;
 .categories ul {
   padding: 0;
   list-style: none;
+}
+
+.categories li{
+  padding-bottom: 6px;
+  border-bottom: dotted 1px black;
+}
+ 
+.my-form{
+  padding: 20px;
+}
+
+.myform .form-group{
+  padding-bottom: 15px;
+}
+.my-formlabel{
+  display: block;
+}
+.my-form input{
+  padding: 8px;
+  width: 100%;
 }
