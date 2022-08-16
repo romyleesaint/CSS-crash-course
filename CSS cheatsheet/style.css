@@ -19,13 +19,23 @@ a:active {
   color: white;
 }
 a:visited {
-  color: black;
+  
 }
 .container {
   width: 80%;
   margin: auto;
 }
 
+.button{
+  background-color:rgb(5, 5, 5);
+  color: red;
+  padding:10px 15px;
+  border:none
+}
+.button:hover{
+  background: red;
+  color: white;
+}
 .box-1 {
   background-color: darkgrey;
   border-right: 5px red solid;
@@ -62,23 +72,25 @@ a:visited {
 
 .categories ul {
   padding: 0;
+  padding-left: 35px;
   list-style: none;
 }
 
 .categories li{
   padding-bottom: 6px;
   border-bottom: dotted 1px black;
+  list-style-image: url("/CSS\ cheatsheet/images/check3.png") ;
 }
  
 .my-form{
-  padding: 20px;
+  padding: 40px;
 }
 
 .myform .form-group{
-  padding-bottom: 15px;
+  padding-bottom:30px;
 }
-.my-formlabel{
-  display: block;
+.my-form label{
+  display:block;
 }
 .my-form input{
   padding: 8px;
