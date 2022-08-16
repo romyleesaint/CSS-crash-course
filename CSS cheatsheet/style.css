@@ -96,3 +96,11 @@ a:visited {
   padding: 8px;
   width: 100%;
 }
+
+.block{
+  float:left;
+  width: 33%;
+  border: 1px solid black; 
+  padding: 10px;
+  box-sizing: border-box;
+}
