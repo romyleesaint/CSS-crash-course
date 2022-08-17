@@ -36,6 +36,9 @@ a:visited {
   background: red;
   color: white;
 }
+.clr{
+  clear: both;
+}
 .box-1 {
   background-color: darkgrey;
   border-right: 5px red solid;
@@ -102,5 +105,19 @@ a:visited {
   width: 33%;
   border: 1px solid black; 
   padding: 10px;
+  box-sizing: border-box;
+}
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#sidebar{
+  float: right;
+  width: 30%;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  padding: 15px;
   box-sizing: border-box;
 }
