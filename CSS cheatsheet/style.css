@@ -19,24 +19,23 @@ a:active {
   color: white;
 }
 a:visited {
-  
 }
 .container {
   width: 80%;
   margin: auto;
 }
 
-.button{
-  background-color:rgb(5, 5, 5);
+.button {
+  background-color: rgb(5, 5, 5);
   color: red;
-  padding:10px 15px;
-  border:none
+  padding: 10px 15px;
+  border: none;
 }
-.button:hover{
+.button:hover {
   background: red;
   color: white;
 }
-.clr{
+.clr {
   clear: both;
 }
 .box-1 {
@@ -79,41 +78,41 @@ a:visited {
   list-style: none;
 }
 
-.categories li{
+.categories li {
   padding-bottom: 6px;
   border-bottom: dotted 1px black;
-  list-style-image: url("/CSS\ cheatsheet/images/check3.png") ;
+  list-style-image: url("/CSS\ cheatsheet/images/check3.png");
 }
- 
-.my-form{
+
+.my-form {
   padding: 40px;
 }
 
-.myform .form-group{
-  padding-bottom:30px;
+.myform .form-group {
+  padding-bottom: 30px;
 }
-.my-form label{
-  display:block;
+.my-form label {
+  display: block;
 }
-.my-form input{
+.my-form input {
   padding: 8px;
   width: 100%;
 }
 
-.block{
-  float:left;
+.block {
+  float: left;
   width: 33%;
-  border: 1px solid black; 
+  border: 1px solid black;
   padding: 10px;
   box-sizing: border-box;
 }
-#main-block{
+#main-block {
   float: left;
   width: 70%;
   padding: 15px;
   box-sizing: border-box;
 }
-#sidebar{
+#sidebar {
   float: right;
   width: 30%;
   background-color: rgb(7, 7, 7);
@@ -121,3 +120,46 @@ a:visited {
   padding: 15px;
   box-sizing: border-box;
 }
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px SOLID black;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('./images/light img.jpg');
+
+  
+  background-position: 100px 200px;
+  background-position: center center;
+}
+
+.p-box H1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+.my-list li:first-child{
+background: red;
+}
+.my-list li:last-child{
+  background: yellow;
+  }
+  .my-list li:nth-child(5){
+background: black;
+  }
+
+  .my-list li:nth-child(even){
+    background: black;
+      }
+      
